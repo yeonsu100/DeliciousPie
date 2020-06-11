@@ -7,4 +7,4 @@ def Remove(tuples):
 # Driver Code
 tuples = [(), ('ram', '15', '8'), (), ('laxman', 'sita'),
           ('krishna', 'akbar', '45'), ('', ''), ()]
-print(Remove(tuples)) 
+print(Remove(tuples))
