@@ -9,4 +9,4 @@ for ele in sorted(unwanted, reverse=True):
     del list1[ele]
 
 # printing modified list
-print(*list1) 
+print(*list1)
