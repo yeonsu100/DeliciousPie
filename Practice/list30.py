@@ -7,4 +7,4 @@ def Cumulative(lists):
 
 # Driver Code
 lists = [10, 20, 30, 40, 50]
-print(Cumulative(lists))  
+print(Cumulative(lists))
