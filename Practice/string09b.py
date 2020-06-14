@@ -10,4 +10,4 @@ dict = OrderedDict.fromkeys(seq, 10)
 
 # Output = {'age': 10, 'name': 10, 'gender': 10}
 print
-str(dict) 
+str(dict)
