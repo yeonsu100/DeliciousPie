@@ -8,4 +8,4 @@ def findLen(str):
 
 
 str = "geeks"
-print(findLen(str)) 
+print(findLen(str))
