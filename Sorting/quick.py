@@ -4,9 +4,7 @@ def partition(arr, low, high):
 
     for j in range(low, high):
 
-    # If current element is smaller than or eqaul to pivot
     if arr[j] <= pivot:
-        # increment index of smaller element
         i = i + 1
         arr[i], arr[j] = arr[j], arr[i]
 
