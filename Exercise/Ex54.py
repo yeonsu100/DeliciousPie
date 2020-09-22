@@ -6,7 +6,6 @@ def getNextGap(gap):
         return 1
     return gap
 
-
 # Function to sort arr[] using Comb Sort
 def combSort(arr):
     n = len(arr)
@@ -28,3 +27,12 @@ def combSort(arr):
             if arr[i] > arr[i + gap]:
                 arr[i], arr[i + gap] = arr[i + gap], arr[i]
                 swapped = True
+
+
+# Driver code to test above
+arr = [8, 4, 1, 3, -44, 23, -6, 28, 0]
+combSort(arr)
+
+print("Sorted array:")
+for i in range(len(arr)):
+    print(arr[i])
